@@ -13,7 +13,7 @@ SRCBRANCH = "master"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
-SRC_URI = "git://github.com/mono/mono-upnp.git;branch=${SRCBRANCH} \
+SRC_URI = "git://github.com/mono/mono-upnp.git;branch=${SRCBRANCH};protocol=https \
 "
 
 S = "${WORKDIR}/git"
